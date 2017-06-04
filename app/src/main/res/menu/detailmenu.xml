@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/favoriteitem"
+        android:showAsAction="never"
+        android:title="Add To Favorite">
+        </item>
+    <item
+        android:id="@+id/shareitem"
+        android:showAsAction="never"
+        android:title="Share">
+        </item>
+
+
+</menu>

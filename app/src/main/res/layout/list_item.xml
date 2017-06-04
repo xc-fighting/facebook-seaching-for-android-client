@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/logo"
+        android:id="@+id/profilephoto" />
+
+    <TextView
+        android:text="fwegwgregerger"
+        android:layout_height="wrap_content"
+        android:id="@+id/profilename"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/black"
+        android:layout_width="90dp" />
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/favorites_off"
+            android:id="@+id/favoritebutton"
+            android:layout_weight="0.19" />
+
+        <ImageView
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/details"
+            android:id="@+id/detailbutton"
+            android:layout_weight="0.16"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+
+</LinearLayout>
